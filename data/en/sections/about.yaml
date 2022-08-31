@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a passionate software engineer with 2 years of working experience. I have written websites at Wildcat Applications to microservices and internal tooling at FanDuel. I enjoy working in DevOps and currently working towards my AWS Associate Solutions Architect certification. I volunteer during weekends as a instructor at [CodeYourFuture](https://codeyourfuture.io/).'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -30,14 +30,14 @@ socialLinks:
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://github.com/hanl00"
 
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
 #   url: "#"
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/han-loo-320808184/"
 
 # - name: Twitter
 #   icon: "fab fa-twitter"
