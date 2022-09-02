@@ -1,7 +1,7 @@
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "Han Loo - Software Engineer"
+title: "Han Loo"
 theme: "toha"
 
 # Manage languages
@@ -57,7 +57,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Enable dark theme
   darkMode:

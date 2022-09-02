@@ -22,11 +22,10 @@ company:
 summary: 'I am a passionate software engineer with 2 years of working experience. I have written websites at Wildcat Applications to microservices and internal tooling at FanDuel. I enjoy working in DevOps and currently working towards my AWS Associate Solutions Architect certification. I volunteer during weekends as a instructor at [CodeYourFuture](https://codeyourfuture.io/).'
 
 # your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "loohanmeng@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -37,7 +36,7 @@ socialLinks:
 #   url: "#"
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/han-loo-320808184/"
+  url: "https://www.linkedin.com/in/han-loo/"
 
 # - name: Twitter
 #   icon: "fab fa-twitter"
@@ -51,7 +50,7 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
-  url: "files/resume.pdf"
+  url: "files/han_loo_resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

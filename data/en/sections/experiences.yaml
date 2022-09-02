@@ -15,7 +15,7 @@ experiences:
       url: "https://www.fanduel.com"
       location: Glasgow
       # company overview
-      overview: Organic Growth, Growth Products Vertical, building new products to drive new users to FanDuel.
+      overview: Organic Growth, Growth Products Vertical, building products to drive new users to FanDuel.
     positions:
       - designation: Software Engineer
         start: Jan 2022
@@ -26,7 +26,6 @@ experiences:
           - Codify infrastructure using Terraform to ensure a reusable, reproduceable deployment process on AWS.
           - Contributed to internal frontend React library to allow for consistent UI across FanDuel pages.
           - Developed microservices and internal APIs using Java Spring for the National Football League.
-          - Set up monitoring metrics and alert notifications on Datadog for data analytics.
 
   - company:
       name: Wildcat Applications
