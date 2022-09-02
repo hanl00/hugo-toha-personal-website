@@ -10,81 +10,46 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - name: MSci in Software Engineering
+    icon: fa-graduation-cap
+    timeframe: 2016-2021
+    institution:
+      name: University of Glasgow
+      url: "https://www.gla.ac.uk/"
+    grade:
+      scale: Grade
+      achieved: First class honours
+    mastersThesis:
+      title: Neque porro quisquam est qui dolorem ipsum
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis tellus eget massa molestie, ut blandit ante tincidunt. Cras lacus metus, mattis non sapien sit amet, pharetra dignissim lectus. Pellentesque interdum dui nec felis ullamcorper semper. Aenean aliquam ligula nec augue venenatis, sit amet porta purus posuere. Sed porta elit id felis efficitur, sit amet vehicula nisi molestie. Donec non pellentesque elit. Mauris pulvinar suscipit nisi eu elementum. Maecenas vitae tempor neque. Nulla at lacus pulvinar, vulputate massa non, imperdiet erat. Vestibulum euismod in enim ut vestibulum. Donec ante libero, egestas eu posuere quis, semper in tellus. Integer ut erat nec dui dictum iaculis. Aenean sit amet massa volutpat, congue libero vel, ultrices justo. Integer laoreet mauris eget sem laoreet, ut tempor elit finibus. Aliquam erat volutpat. Ut in ante elementum, aliquam augue sit amet, vestibulum est.
+    bachelorsThesis:
+      title: Lorem ipsum dolor sit
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien est, fermentum ut neque eu, suscipit vulputate lectus. Curabitur rhoncus congue interdum. Donec auctor, erat et congue vehicula, turpis diam ultricies nunc, vel sollicitudin tortor diam ac ligula. Sed dignissim, mi et sagittis dapibus, magna nulla rutrum elit, nec scelerisque risus magna id metus. Phasellus venenatis scelerisque feugiat. Morbi in massa est. Integer in nibh nunc. Vivamus commodo augue at sem sagittis molestie. Aliquam vestibulum sed eros non lacinia. Nam blandit tortor a ante euismod, vel posuere mi aliquet. Fusce consectetur tellus quis risus malesuada bibendum. Nulla finibus eleifend risus nec commodo. Donec nec lacus ac ex iaculis convallis vitae at ligula. Donec et orci sit amet neque semper maximus. Integer consectetur tortor non diam ultrices, ut condimentum nibh lobortis. Phasellus eleifend posuere sapien.
+
+    # takenCourses: #(optional)
+    #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    #   showGrades: true
+    #   collapseAfter: 3
+    #   courses:
+    #     - name: Data Structures and Algorithm
+    #       achieved: 3.75
+    #       outOf: 4
+    #     - name: Network Security
+    #       achieved: 3.80
+    #       outOf: 4
+    #     - name: Operating System
+    #       achieved: 3.5
+    #       outOf: 4
+    #     - name: Artificial Intelligent
+    #       achieved: 3.75
+    #       outOf: 4
+    # publications: #(optional)
+    #   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #     url: "#"
+    #   - title: Fusce eu augue ut odio porttitor pulvinar.
+    #     url: "#"
+    # extracurricularActivities: #(optional)
+    #   - In vitae facilisis est, eget porta sem.
+    #   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+    #   - Duis sed massa feugiat, ornare justo et, aliquam est.
+    #   - Pellentesque ut fringilla magna.

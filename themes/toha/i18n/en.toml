@@ -124,3 +124,10 @@ other = "Liability Notice"
 
 [search]
 other = "Search"
+
+[masters_thesis]
+other = "Master's thesis"
+
+[bachelors_thesis]
+other = "Bachelor's thesis"
+
