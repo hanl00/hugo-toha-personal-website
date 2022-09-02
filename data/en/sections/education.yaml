@@ -20,36 +20,31 @@ degrees:
       scale: Grade
       achieved: First class honours
     mastersThesis:
-      title: Neque porro quisquam est qui dolorem ipsum
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis tellus eget massa molestie, ut blandit ante tincidunt. Cras lacus metus, mattis non sapien sit amet, pharetra dignissim lectus. Pellentesque interdum dui nec felis ullamcorper semper. Aenean aliquam ligula nec augue venenatis, sit amet porta purus posuere. Sed porta elit id felis efficitur, sit amet vehicula nisi molestie. Donec non pellentesque elit. Mauris pulvinar suscipit nisi eu elementum. Maecenas vitae tempor neque. Nulla at lacus pulvinar, vulputate massa non, imperdiet erat. Vestibulum euismod in enim ut vestibulum. Donec ante libero, egestas eu posuere quis, semper in tellus. Integer ut erat nec dui dictum iaculis. Aenean sit amet massa volutpat, congue libero vel, ultrices justo. Integer laoreet mauris eget sem laoreet, ut tempor elit finibus. Aliquam erat volutpat. Ut in ante elementum, aliquam augue sit amet, vestibulum est.
+      title: Fast CPU-based software retina
+      description: A biologically inspired software retina system that compress visual inputs to reduce memory requirements in areas such as robotics and deep learning. The project presents a library that offers a CPU-based acceleration of the present retina sampling algorithm by parallelizing code computations for real-time applications and a software retina generator to overcome issues arising from software retina distribution. The final evaluation proved that the user-friendly open-source software retina library is capable of real-time sampling performance, up to 180x speedup and a software retina generator that offers increasing speedup factor with software retina size, when compared to prior implementations.
     bachelorsThesis:
-      title: Lorem ipsum dolor sit
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien est, fermentum ut neque eu, suscipit vulputate lectus. Curabitur rhoncus congue interdum. Donec auctor, erat et congue vehicula, turpis diam ultricies nunc, vel sollicitudin tortor diam ac ligula. Sed dignissim, mi et sagittis dapibus, magna nulla rutrum elit, nec scelerisque risus magna id metus. Phasellus venenatis scelerisque feugiat. Morbi in massa est. Integer in nibh nunc. Vivamus commodo augue at sem sagittis molestie. Aliquam vestibulum sed eros non lacinia. Nam blandit tortor a ante euismod, vel posuere mi aliquet. Fusce consectetur tellus quis risus malesuada bibendum. Nulla finibus eleifend risus nec commodo. Donec nec lacus ac ex iaculis convallis vitae at ligula. Donec et orci sit amet neque semper maximus. Integer consectetur tortor non diam ultrices, ut condimentum nibh lobortis. Phasellus eleifend posuere sapien.
+      title: Robotics Web App
+      description: The complex lab environment set up process results in a high cognitive load on Robotics Foundation students and may lead to a great deal of inconvenience. The Robotics Web App has been built to remove any need for students to install and set up an environment before working on the lab exercises. This allows users to concentrate solely on completing their weekly lab exercises. In particular, the web application provides several functionalities, including coding in Jupyter Notebooks, viewing robot visualisations, and receiving individual feedback from course coordinators. The evaluation of the web application proved that most project requirements were met and could be highly considered as an alternative platform for students to complete their lab exercises.
 
-    # takenCourses: #(optional)
-    #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    #   showGrades: true
-    #   collapseAfter: 3
-    #   courses:
-    #     - name: Data Structures and Algorithm
-    #       achieved: 3.75
-    #       outOf: 4
-    #     - name: Network Security
-    #       achieved: 3.80
-    #       outOf: 4
-    #     - name: Operating System
-    #       achieved: 3.5
-    #       outOf: 4
-    #     - name: Artificial Intelligent
-    #       achieved: 3.75
-    #       outOf: 4
-    # publications: #(optional)
-    #   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    #     url: "#"
-    #   - title: Fusce eu augue ut odio porttitor pulvinar.
-    #     url: "#"
-    # extracurricularActivities: #(optional)
-    #   - In vitae facilisis est, eget porta sem.
-    #   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-    #   - Duis sed massa feugiat, ornare justo et, aliquam est.
-    #   - Pellentesque ut fringilla magna.
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 5
+      courses:
+        - name: Algorithms & Data Structures
+        - name: Artificial Intelligence
+        - name: Big Data
+        - name: Computer Vision Methods and Applications
+        - name: Cyber Security Fundamentals
+        - name: Database Management Systems
+        - name: Functional Programming
+        - name: Human Computer Interaction
+        - name: Interactive Systems
+        - name: Machine Learning
+        - name: Object-Oriented Software Engineering
+        - name: Recommender Systems
+        - name: Safety Critical Systems
+        - name: Secured Software Engineering
+        - name: Systems Programming
+        - name: Text as Data
+        - name: Web Application Development

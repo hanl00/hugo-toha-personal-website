@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 3
@@ -15,7 +15,7 @@ experiences:
       url: "https://www.fanduel.com"
       location: Glasgow
       # company overview
-      overview: FanDuel Group is an innovative sports-tech entertainment company that is changing the way consumers engage with their favorite sports, teams, and leagues
+      overview: Organic Growth, Growth Products Vertical, building new products to drive new users to FanDuel.
     positions:
       - designation: Software Engineer
         start: Jan 2022
@@ -23,41 +23,60 @@ experiences:
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
         responsibilities:
-          - Design and develop XYZ tool for ABC task
-          - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-          - Lead backend team.
+          - Codify infrastructure using Terraform to ensure a reusable, reproduceable deployment process on AWS.
+          - Contributed to internal frontend React library to allow for consistent UI across FanDuel pages.
+          - Developed microservices and internal APIs using Java Spring for the National Football League.
+          - Set up monitoring metrics and alert notifications on Datadog for data analytics.
 
   - company:
       name: Wildcat Applications
       url: "https://wildcatapps.com/"
       location: Edinburgh
-      overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+      overview: Cenefits is a community benefits realisation tool that helps city councils, suppliers and delivery partners manage contracts and deliver community benefits effectively.
     positions:
-      - designation: Junior Software Engineer
-        start: March 2016
-        end: May 2017
+      - designation: Junior Software Developer
+        start: June 2021
+        end: Jan 2022
         responsibilities:
-          - Write lots of example codes.
-          - Read lots of examples.
-          - See lots of example videos.
-      - designation: Software Engineer Intern/ Part-time
-        start: Nov 2017
-        end: Oct 2019
+          - Introduced a mass assignment feature to allow admins to assign/unassign executives en masse.
+          - Improved productivity of admins and project managers by allowing them to create private notes with visibility settings.
+          - Adopted test-driven development to implement requested features by the Glasgow City Council and City of Edinburgh Council.
+      - designation: Software Developer Intern/ Part-time
+        start: May 2020
+        end: Nov 2020
         responsibilities:
-          - Implement and test xyz feature for abc tool.
-          - Support client for abc tool.
-          - Learn k,d,w technology for xyz.
+          - Improved upon the existing dashboard to display relevant benefit information using Django REST framework.
+          - Introduced a new view for organisation admins to edit and manage benefits easily.
+          - Implemented filters which allowed users to view benefits that matches the search criteria.
+          - Utilised agile software development tools and techniques such as stand-ups, sprint meetings and continuous integration.
+          - Provided technical support during client onboarding.
 
   - company:
-      name: Intern Counting Company (ICC).
-      url: "https://www.example.com"
-      location: Intern Land
-      overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+      name: University of Glasgow
+      url: "https://wildcatapps.com/"
+      location: Glasgow
     positions:
-      - designation: Intern
-        start: Jun 2015
-        end: Jan 2016
+      - designation: Graduate Teaching Assistant
+        start: Sep 2020
+        end: Apr 2021
         responsibilities:
-          - Count lost of interns.
-          - Count more interns.
-          - Count me as an intern.
+          - Provided support and resolved student queries to complete weekly lab exercises for the Functional Programming, Programming Systems Development and Database Systems course.
+      - designation: Class Representative (Volunteer)
+        start: Sep 2019
+        end: Apr 2020
+        responsibilities:
+          - Class representative for Computing Science and Software Engineering students, raised feedback from students during meetings with the department head and discussed possible improvements.
+
+  - company:
+      name: Fresh Futures Malaysia
+      url: "http://freshfutures.com/"
+      location: Kuala Lumpur
+      overview: Seeka is a education search engine that helps aspiring university students to search and enrol for university courses all over the world.
+    positions:
+      - designation: Software Developer Intern
+        start: Jun 2019
+        end: Sep 2019
+        responsibilities:
+          - Contributed to the growth of the app’s database by improving upon the existing data fetching process.
+          - Reduced data entry cost through scripting.
+          - Collaborated on all stages of the development lifecycle, from requirements gathering to production releases, ensuring project stayed on timeline, and that any obstacles were clearly communicated to stakeholders with ample notice.
