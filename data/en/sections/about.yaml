@@ -58,7 +58,7 @@ resourceLinks:
 badges:
 - type: certification
   name: AWS Certified Cloud Practitioner
-  url: "https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner"
+  url: https://www.credly.com/badges/ba15a4de-9818-42c9-9f02-7b8c02d09408
   badge: "https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
 
 # - type: certification

@@ -191,3 +191,34 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: true
+
+deployment:
+
+  # By default, files are uploaded in an arbitrary order.
+  # Files that match the regular expressions in the "Order" list
+  # will be uploaded first, in the listed order.
+  order:
+    - .jpg$
+    - .gif$
+
+  targets:
+    # S3; see https://gocloud.dev/howto/blob/#s3
+    # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+    - name: mydeployment
+      URL: "s3://hanl-personal-site?region=eu-west-2&awssdk=2"
+
+      # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+      # cloudFrontDistributionID: 123123
+  matchers:
+    - pattern: ^.+\.(js|css|svg|ttf)$
+      cacheControl: 'max-age=31536000, no-transform, public'
+      gzip: true
+    - pattern: ^.+\.(png|jpg)$
+      cacheControl: 'max-age=31536000, no-transform, public'
+      gzip: false
+    - pattern: ^sitemap\.xml$
+      contentType: application/xml
+      gzip: true
+    - pattern: ^.+\.(html|xml|json)$
+      gzip: true
+
