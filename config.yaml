@@ -205,8 +205,9 @@ deployment:
     # S3; see https://gocloud.dev/howto/blob/#s3
     # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
     - name: mydeployment
-      URL: "s3://hanmloo.com?region=eu-west-2&awssdk=2"
+      URL: "s3://www.hanmloo.com?region=eu-west-2&awssdk=2"
       # "s3://www.hanmloo.com?region=eu-west-2&awssdk=2"
+      # "s3://hanmloo.com?region=eu-west-2&awssdk=2"
       # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
       # cloudFrontDistributionID: 123123
   matchers:
