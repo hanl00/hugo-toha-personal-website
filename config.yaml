@@ -48,7 +48,7 @@ params:
   logo:
     main: /images/site/hl-logo.jpg
     inverted: /images/site/hl-logo.jpg
-    favicon: /images/site/hl-logo.jpg
+    favicon: /images/site/favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/hanl00/hugo-toha-personal-website
@@ -205,8 +205,8 @@ deployment:
     # S3; see https://gocloud.dev/howto/blob/#s3
     # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
     - name: mydeployment
-      URL: "s3://www.hanmloo.com?region=eu-west-2&awssdk=2"
-
+      URL: "s3://hanmloo.com?region=eu-west-2&awssdk=2"
+      # "s3://www.hanmloo.com?region=eu-west-2&awssdk=2"
       # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
       # cloudFrontDistributionID: 123123
   matchers:
