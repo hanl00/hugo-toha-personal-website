@@ -50,9 +50,9 @@
 <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
   <div class="container">
     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
-      <!-- {{ if $invertedLogo }}
+      {{ if $invertedLogo }}
         <img src="{{ $invertedLogo }}" id="logo" alt="Logo">
-      {{ end }} -->
+      {{ end }}
       {{- site.Title -}}
     </a>
     <button
