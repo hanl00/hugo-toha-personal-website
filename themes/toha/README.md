@@ -108,7 +108,7 @@ Now, configure your site to use `toha` theme by adding the following configurati
 baseURL: https://hugo-toha.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Han Loo - Personal site"
 theme: "toha"
 
 # Manage languages

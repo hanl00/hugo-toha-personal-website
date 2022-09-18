@@ -63,7 +63,7 @@ params:
   darkMode:
     provider: darkreader
     enable: true
-    default: system
+    default: light
 
   # Configure various features of this theme
   features:
@@ -127,8 +127,8 @@ params:
     analytics:
       enabled: false
       # Google Analytics
-      google:
-        id: G-H4LBG7NDFZ
+      # google:
+      #   id: G-H4LBG7NDFZ
       # # CounterDev
       # counterDev:
       #   id: <your counterdev id>
@@ -205,7 +205,7 @@ deployment:
     # S3; see https://gocloud.dev/howto/blob/#s3
     # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
     - name: mydeployment
-      URL: "s3://hanl-personal-site?region=eu-west-2&awssdk=2"
+      URL: "s3://www.hanmloo.com?region=eu-west-2&awssdk=2"
 
       # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
       # cloudFrontDistributionID: 123123
