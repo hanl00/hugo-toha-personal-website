@@ -48,7 +48,7 @@ params:
   logo:
     main: /images/site/hl-logo.jpg
     inverted: /images/site/hl-logo.jpg
-    favicon: /images/site/favicon.png
+    favicon: /images/site/hl-logo.jpg
 
   # GitHub repo of your site
   gitRepo: https://github.com/hanl00/hugo-toha-personal-website
